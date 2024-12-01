@@ -1,0 +1,6 @@
+@mixin heading-style($size, $color) {
+    font-size: $size;
+    color: $color;
+    font-weight: bold;
+    text-transform: uppercase;
+}

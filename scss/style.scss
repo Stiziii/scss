@@ -1,0 +1,12 @@
+
+@import 'variables';
+@import 'mixins';
+@import 'header';
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: lighten($primary-color, 30%);
+    color: $text-color;
+}
